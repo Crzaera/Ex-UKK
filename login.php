@@ -9,7 +9,11 @@
 			<label for="password">Passowrd</label>
 			<input id="password" type="password" name="password" required>
 		</div>
-		<input type="submit" name="login" value="Login" class="btn blue" style="width: 100%;">
+		<input type="submit" name="login" value="Login" class="btn blue" style="width: 100%; margin-bottom: 2%;">
+		<small>Doesn't have an account !!! </small>
+		<a href="register.php">
+			<small>Register</small>
+		</a>
 	</form>
 </div>
 <?php 

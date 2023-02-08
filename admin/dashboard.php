@@ -1,10 +1,9 @@
-
-<h3 class="orange-text">Dahsboard</h3>
+<h3 class="purple-text">Dahsboard</h3>
 
 	<div class="row">
 		<div class="col s4">
-		  <div class="card red">
-		    <div class="card-content white-text">
+		  <div class="card blue">
+		    <div class="card-content white-text ">
 			<?php 
 				$query = mysqli_query($koneksi,"SELECT * FROM pengaduan");
 				$jlmmember = mysqli_num_rows($query);
@@ -19,7 +18,7 @@
 		</div>	
 
 		<div class="col s4">
-		    <div class="card teal">
+		    <div class="card red">
 		    <div class="card-content white-text">
 			<?php 
 				$query = mysqli_query($koneksi,"SELECT * FROM pengaduan WHERE status='selesai'");

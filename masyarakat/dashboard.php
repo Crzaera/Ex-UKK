@@ -105,7 +105,7 @@
 
 		 		}
 		 		else{
-		 			echo "<script>alert('Akuran Gambar Tidak Lebih Dari 100KB')</script>";
+		 			echo "<script>alert('Ukuran Gambar Tidak Lebih Dari 100KB')</script>";
 		 		}
 		 	}
 		 	else{
